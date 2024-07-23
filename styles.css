@@ -1,0 +1,25 @@
+/** this will be used for titles such as the title of the website, art styles and nav bar **/
+.ArtStylesFont {
+  font-family: "Poppins", sans-serif;
+}
+
+/** this will be used for content such as the body of the website, descriptions and general text **/
+.secondFont {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.image-container {
+  margin: 7%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.image {
+  width: 50%;
+  height: 35%;
+}
